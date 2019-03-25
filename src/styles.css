@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  height: 44px;
+  background-color: #6F7084;
+  width: 394px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+.suggestionCol {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  width: 270px;
+  border: 1px solid white;
+}
+
+.likeCol {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  width: 130px;
+  border: 1px solid white;
+}
+
+
+
+

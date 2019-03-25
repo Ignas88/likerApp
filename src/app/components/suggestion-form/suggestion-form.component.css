@@ -1,0 +1,31 @@
+.suggestionInput {
+  width: 400px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  width: 236px;
+  height: 40px;
+  margin-right: 2px;
+  padding: 0 10px 0 10px;
+  margin-left: 4px;
+}
+
+button {
+  border: 1px solid white;
+  height: 45px;
+  width: 130px;
+  cursor: pointer;
+  color: white;
+  background-color: #5C7EBD;
+}
+
+button:hover {
+  background-color: #7796CE;
+}
+
+button:active {
+  background-color: #5974A9;
+}

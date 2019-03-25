@@ -1,0 +1,43 @@
+.row {
+  width: 394px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  margin-bottom: 2px;
+}
+
+p {
+  color: black;
+  height: 100%;
+  margin: 0;
+  padding-left: 10px;
+  background-color: #E7E7E7;
+}
+
+button {
+  border: 1px solid white;
+  height: 46px;
+  width: 142px;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  outline: none;
+}
+
+button:hover {
+  background-color: #CBD9F3;
+}
+
+button:active {
+  background-color: #A8B7D6;
+}
+
+i {
+  height: 15px;
+  width: 15px;
+  background: url(~src/assets/images/like.svg) center no-repeat;
+  background-size: contain;
+}
