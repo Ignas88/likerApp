@@ -5,6 +5,7 @@
   </div>
   <div class="content" *ngFor="let suggestion of suggestions; let i = index">
     <app-suggestion-item
+      [index]="i"
       text="{{suggestion.text}}"
       like="{{suggestion.likes}}"
       (click)="onClick(i)"
